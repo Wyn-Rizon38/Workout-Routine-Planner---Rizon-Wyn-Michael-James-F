@@ -1,0 +1,42 @@
+/* Apply to the body to center the content */
+body {
+    display: flex;               /* Enables flexbox */
+    justify-content: center;     /* Centers horizontally */
+    align-items: center;         /* Centers vertically */
+    height: 100vh;               /* Full viewport height */
+    margin: 0;                   /* Remove default margin */
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/* Basic styling for the button */
+.custom-button {
+    background-color: #000100;   /* Green background */
+    border: none;                /* Remove border */
+    color: white;                /* White text */
+    padding: 10px 20px;          /* Padding around the text */
+    text-align: center;          /* Center text */
+    text-decoration: none;       /* Remove underline */
+    display: inline-block;       /* Inline element with block features */
+    font-size: 50px;             /* Font size */
+    font-weight: bold;           /* Bold font */
+    border-radius: 5px;          /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth effects */
+    cursor: pointer;             /* Pointer cursor on hover */
+}
+
+/* Hover effects */
+.custom-button:hover {
+    background-color: #2ea21f;   /* Darker green */
+    transform: scale(1.05);      /* Slightly enlarge */
+}
+
+/* Focus effects */
+.custom-button:focus {
+    outline: none;               /* Remove focus outline */
+    box-shadow: 0 0 5px #4CAF50; /* Add glow */
+}
