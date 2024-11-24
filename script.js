@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const li = document.createElement('li');
     li.innerHTML = `
-      <span>${exercise} - ${duration} min, ${sets} sets, ${reps} reps</span>
+      <span>${exercise} - ${duration} mins, ${sets} sets, ${reps} reps</span>
       <button class="delete-btn">Delete</button>
     `;
 
